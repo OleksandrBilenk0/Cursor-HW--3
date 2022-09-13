@@ -1,0 +1,403 @@
+body {
+    width: 100%;
+    height: 1100px;
+    background-color: #EAF0F4;
+}
+
+
+/* banner #1 */
+
+.banner1 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    padding: 16px 120px;
+    height: 72px;
+    background-color: #0B2239;
+    margin-bottom: 24px;
+}
+
+.b1_text {
+    width: 922px;
+    margin-right: 32px;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+}
+
+.nav_b1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 246px;
+    height: 36px;
+}
+
+.setting_b1 {
+    height: 16px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4AD295;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.setting_b1:hover {
+    color: #93ffce;
+}
+
+.btn_b1 {
+    width: 130px;
+    height: 36px;
+    background-color: #4AD295;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+/* banner #2 */
+
+.banner2 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 120px;
+    height: 72px;
+    background-color: #2B2627;
+    margin-bottom: 24px;
+}
+
+.b2_img {
+    color: white;
+    margin-right: 8px;
+}
+
+.b2_text {
+    font-size: 13px;
+    color: white;
+}
+
+.agree_b2 {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.close_btn_b2 {
+    background-color: #2B2627;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+/* banner #3 */
+
+.banner3 {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 72px;
+    margin-left: 10px;
+    margin-top: 72px;
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+}
+
+.b3_img {
+    width: 36px;
+    margin-right: 10px;
+}
+
+.b3_text{
+    width: 347px;
+    color: black;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+.policies_b3 {
+    color: #EA4C89;
+    cursor: pointer;
+}
+.policies_b3:hover { 
+    color: #f887b2; 
+}
+
+button {
+    background: none;
+}
+
+.decline_btn_b3 {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.allow_btn_b3 {
+    cursor: pointer;
+}
+
+/* banner #4 */
+
+.banner4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 560px;
+    height: 64px;
+    margin-left: 10px;
+    margin-top: 24px;
+    background-color: #26262B;
+    border-radius: 10px;
+    letter-spacing: normal;
+}
+
+.b4_text {
+    width: 469px;
+    font-family: 'Avenir LT Std';
+    line-height: 20px;
+    color: white;
+    margin-left: 16px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.aggre_b4 {
+    color: #E6842E;
+    cursor: pointer;
+}
+
+.aggre_b4:hover { 
+    color: #f3a866; 
+}
+
+.okay_btn_b3 {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+/* b5_b6 */
+
+.b5_b6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-left: 10px;
+    width: 760px;
+    height: 206px;
+}
+
+
+/* banner #5 */
+
+.banner5 {
+    font-family: 'Roboto', sans-serif;
+    width: 360px;
+    height: 206px;
+    border-radius: 6px;
+    background-color: rgba(28, 37, 64, 0.95);
+    color: white;
+    padding: 24px;
+}
+
+.suptitle_b5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.b5_text {
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+
+.policy_b5 {
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.b5_block {
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.subtitle_b5 {
+    color: white;
+}
+
+.accept_btn_b5 {
+    width: 84px;
+    height: 32px;
+    background-color: #09B3AF;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* banner 6 */
+
+.banner6 {
+    width: 360px;
+    height: 170px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+
+.title_b6 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.b6_text {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.manage_btn_b6 {
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: #EAF0F4;
+    color: #687F8C;
+    cursor: pointer;
+}
+
+.accept_btn_b6 {
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    padding: 8px;
+    background-color: #40C1A7;
+    color: white;
+    cursor: pointer;
+}
+
+/* b7_b8 */
+
+.b7_b8 {
+    width: 680px;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-left: 10px;
+}
+
+/* banner #7 */
+
+.banner7 {
+    width: 320px;
+    height: 260px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 32px;
+    font-family: 'Inter', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.title_b7 {
+    font-family: 'Gilroy';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 48px;
+    color: #15295A;
+    
+}
+
+.b7_text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #15295A;
+    
+}
+
+.accept_btn_b7 {
+    width: 121px;
+    height: 44px;
+    border-radius: 43px;
+    background-color: #4A7EFF;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-top: 32px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+/* banner8 */
+
+.banner8 {
+    width: 320px;
+    height: 137px;
+    border-radius: 4px;
+    padding: 16px;
+    background-color: white;
+    font-family: 'SF Pro Display';
+    letter-spacing: 1px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.b8_text {
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+.nav_b8 {
+    width: 288px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+}
+
+.policy_b8 {
+    color: #6666FF;
+    cursor: pointer;
+}
+.policy_b8:hover {
+    color: #0101ff;
+}
+
+
+.accept_btn_b8 {
+    width: 64px;
+    height: 33px;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #3737d8;
+    color: white;
+    cursor: pointer;
+}
